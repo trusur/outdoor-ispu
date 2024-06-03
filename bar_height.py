@@ -10,4 +10,9 @@ def translate(value, leftMin, leftMax, rightMin, rightMax):
     valueScaled = float(value - leftMin) / float(leftSpan)
     return rightMin + (valueScaled * rightSpan)
  
+print(bar_height(50))
+print(bar_height(100))
+print(bar_height(100))
+print(bar_height(200))
+print(bar_height(300))
 print(bar_height(500))
